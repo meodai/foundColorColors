@@ -1,0 +1,31 @@
+{
+  "name": "foundcolorcolors",
+  "version": "1.0.0",
+  "description": "color palettes from https://foundcolor.co/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node snatchColorsNode.js && palette-aldente ./palettes.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meodai/foundColorColors.git"
+  },
+  "keywords": [
+    "color",
+    "colour",
+    "art",
+    "palette",
+    "palettes"
+  ],
+  "author": "meodai@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meodai/foundColorColors/issues"
+  },
+  "homepage": "https://github.com/meodai/foundColorColors#readme",
+  "devDependencies": {
+    "palette-aldente": "^1.11.1",
+    "puppeteer": "^19.4.1"
+  }
+}
